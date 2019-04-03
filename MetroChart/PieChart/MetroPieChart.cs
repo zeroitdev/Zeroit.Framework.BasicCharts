@@ -7,7 +7,23 @@
 // Last Modified On : 12-11-2018
 // ***********************************************************************
 // <copyright file="MetroPieChart.cs" company="Zeroit Dev Technologies">
-//     Copyright © Zeroit Dev Technologies  2017. All Rights Reserved.
+//    This program is for creating a Bar Chart control.
+//    Copyright Â©  2017  Zeroit Dev Technologies
+//
+//    This program is free software: you can redistribute it and/or modify
+//    it under the terms of the GNU General Public License as published by
+//    the Free Software Foundation, either version 3 of the License, or
+//    (at your option) any later version.
+//
+//    This program is distributed in the hope that it will be useful,
+//    but WITHOUT ANY WARRANTY; without even the implied warranty of
+//    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//    GNU General Public License for more details.
+//
+//    You should have received a copy of the GNU General Public License
+//    along with this program.  If not, see <https://www.gnu.org/licenses/>.
+//
+//    You can contact me at zeroitdevnet@gmail.com or zeroitdev@outlook.com
 // </copyright>
 // <summary></summary>
 // ***********************************************************************
@@ -1279,12 +1295,12 @@ namespace Zeroit.Framework.BasicCharts.Metro
             designerActionItemCollection.Add(new DesignerActionPropertyItem("ShowDonutEffect", "ShowDonutEffect:", "Effekte", "Gibt an, ob ein Donuteffekt gezeichnet werden soll."));
             designerActionItemCollection.Add(new DesignerActionPropertyItem("SeperateSegments", "SeperateSegments:", "Effekte", "Gibt an, ob die Segmente getrennt werden sollen."));
             designerActionItemCollection.Add(new DesignerActionPropertyItem("EffectSize", "EffectSize:", "Effekt", "Gibt an, wie dick der Glanzeffect sein soll.."));
-            designerActionItemCollection.Add(new DesignerActionPropertyItem("DonutEffectSize", "DonutEffectSize:", "Effekt", "Gibt an, wie groß der Donuteffekt sein soll."));
+            designerActionItemCollection.Add(new DesignerActionPropertyItem("DonutEffectSize", "DonutEffectSize:", "Effekt", "Gibt an, wie groï¿½ der Donuteffekt sein soll."));
             designerActionItemCollection.Add(new DesignerActionHeaderItem("Stil und Farben"));
             designerActionItemCollection.Add(new DesignerActionPropertyItem("Style", "Style:", "Stil und Farben", "Der Style des MetroCharts."));
-            designerActionItemCollection.Add(new DesignerActionPropertyItem("UseDynamicFillColors", "UseDynamicFillColors:", "Stil und Farben", "Gibt an, ob die Füllfarbe der Segmente generiert werden soll. Funktioniert nur, wenn zu den Segmente einen Umrandungsfarbe zugeordnet wurde."));
+            designerActionItemCollection.Add(new DesignerActionPropertyItem("UseDynamicFillColors", "UseDynamicFillColors:", "Stil und Farben", "Gibt an, ob die Fï¿½llfarbe der Segmente generiert werden soll. Funktioniert nur, wenn zu den Segmente einen Umrandungsfarbe zugeordnet wurde."));
             designerActionItemCollection.Add(new DesignerActionPropertyItem("UseDynamicBorderColors", "UseDynamicBorderColors:", "Stil und Farben", "Gibt an, ob die Umrandungsfarbe der Segmente generiert werden soll."));
-            designerActionItemCollection.Add(new DesignerActionPropertyItem("DynamicColorOffset", "DynamicColorOffset:", "Stil und Farben", "Gibt an, wie stark die Füllfarbe verdunkelt werden soll, wenn \"UseDynamicFillColors\"= True entspricht."));
+            designerActionItemCollection.Add(new DesignerActionPropertyItem("DynamicColorOffset", "DynamicColorOffset:", "Stil und Farben", "Gibt an, wie stark die Fï¿½llfarbe verdunkelt werden soll, wenn \"UseDynamicFillColors\"= True entspricht."));
             return designerActionItemCollection;
         }
     }
